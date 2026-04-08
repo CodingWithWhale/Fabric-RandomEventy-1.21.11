@@ -1,40 +1,20 @@
-# gradle
-
+# Build folders
 .gradle/
 build/
+bin/
 out/
-classes/
 
-# eclipse
-
-*.launch
-
-# idea
-
+# IDE files
 .idea/
 *.iml
-*.ipr
 *.iws
 
-# vscode
-
-.settings/
-.vscode/
-bin/
-.classpath
-.project
-
-# macos
-
-*.DS_Store
-
-# fabric
-
+# Minecraft Run Environment
 run/
-
-# java
-
-hs_err_*.log
-replay_*.log
-*.hprof
-*.jfr
+logs/
+saves/
+screenshots/
+crash-reports/
+usercache.json
+usernamecache.json
+options.txt
