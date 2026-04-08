@@ -1,0 +1,20 @@
+{
+	"required": true,
+	"package": "net.nlpixel.randomeventy.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+        "CreateWorldScreenMixin",
+        "BlockRandomizerMixin",
+        "MobDropRandomizerMixin",
+        "WorldGenRandomizerMixin",
+        "DimensionRandomizerMixin",
+        "DimensionShapeMixin"
+    ],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
